@@ -12,6 +12,8 @@ public class Main {
         cachorro1.peso = 5.5;
         cachorro1.tamanhoDoRabo = 5;
 
-        System.out.println(cachorro1);
+        //System.out.println(cachorro1);
+        cachorro1.latir();
+        cachorro1.pegar();
     }
 }
