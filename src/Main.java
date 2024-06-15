@@ -20,9 +20,5 @@ public class Main {
         System.out.println("O cachorro está " + cachorro1.interagir("nada"));
         System.out.println("O cachorro está " + cachorro1.interagir("vai dormir"));
 
-
-
-
-
     }
 }
