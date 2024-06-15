@@ -2,11 +2,11 @@ package Animais;
 
 public class Cachorro {
 
-    String nome;
-    String cor;
-    int altura;
-    double peso;
-    int tamanhoDoRabo;
+    public String nome;
+    public String cor;
+    public int altura;
+    public double peso;
+    public int tamanhoDoRabo;
 
 
 }
