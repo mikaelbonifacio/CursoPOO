@@ -9,14 +9,12 @@ public class Main {
 
         Cachorro cachorro1 = new Cachorro("Rex","Neutro","Marron",25,7,5.5);
         Gato gato1 = new Gato("Salem", "Preto", 25, 2, "Perturbado");
-        Passaro passaro1 = new Passaro("Picapau", "Vermelho", 1, 0.5, "Alegre");
-        Petshop petshop = new Petshop();
+        Passaro passaro1 = new Passaro("Papa leguas", "Azul", 14, 22.4, "Rápido");
 
-        petshop.darBanho(cachorro1);
-        System.out.println(cachorro1.getEstadoDeEspirito());
-        petshop.darBanho(gato1);
-        System.out.println(gato1.getEstadoDeEspirito());
-        petshop.tosar(cachorro1);
-        System.out.println(cachorro1.getEstadoDeEspirito());
+        cachorro1.soar();
+        gato1.soar();
+        passaro1.soar();
+
+
     }
 }
