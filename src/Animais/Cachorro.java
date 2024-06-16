@@ -9,7 +9,20 @@ public class Cachorro {
     private int tamanhoDoRabo;
     private String estadoDeEspirito;
 
-    //get set
+    // construtores
+
+    public Cachorro(String nome, String estadoDeEspirito, String cor, int altura, int tamanhoDoRabo, double peso) {
+        this.nome = nome;
+        this.estadoDeEspirito = estadoDeEspirito;
+        this.cor = cor;
+        this.altura = altura;
+        this.tamanhoDoRabo = tamanhoDoRabo;
+        this.peso = peso;
+    }
+
+
+
+    // metodos (getters e setters)
 
     public String getNome() {
         return nome;
