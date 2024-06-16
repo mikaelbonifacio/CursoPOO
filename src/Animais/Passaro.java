@@ -1,13 +1,8 @@
 package Animais;
 
-public class Passaro {
+public class Passaro extends Animal{
 
     static int numeroDePassaros;
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
-    private String estadoDeEspirito;
 
     public Passaro(String estadoDeEspirito, double peso, int altura, String cor, String nome) {
         this.estadoDeEspirito = estadoDeEspirito;
@@ -17,14 +12,6 @@ public class Passaro {
         this.nome = nome;
 
         numeroDePassaros ++;
-    }
-
-    void comer() {}
-
-    void dormir() {}
-
-    void soar() {
-        System.out.println("PIU PIU");
     }
 
 }

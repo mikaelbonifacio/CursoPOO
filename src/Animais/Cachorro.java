@@ -1,15 +1,10 @@
 package Animais;
 
-public class Cachorro {
+public class Cachorro extends Animal{
 
     // Atributos
     static int numeroDeCachorros;
-    private String nome;
-    private String cor;
-    private int altura;
-    private double peso;
     private int tamanhoDoRabo;
-    private String estadoDeEspirito;
 
     // construtores
 
@@ -82,11 +77,6 @@ public class Cachorro {
     }
 
     //metodos
-    public void comer() {}
-
-    public void soar() {
-        System.out.println("AU AU");
-    }
 
     public String pegar() {
         return "Bolinha";
