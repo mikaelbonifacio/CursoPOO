@@ -84,7 +84,7 @@ public class Cachorro {
     //metodos
     public void comer() {}
 
-    public void latir() {
+    public void soar() {
         System.out.println("AU AU");
     }
 
