@@ -23,7 +23,6 @@ public class Cachorro {
         numeroDeCachorros ++;
     }
 
-
 // metodos (getters e setters)
 
     public static int getNumeroDeCachorros() {
