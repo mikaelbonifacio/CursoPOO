@@ -18,6 +18,5 @@ public class Main {
         System.out.println(gato1.getEstadoDeEspirito());
         petshop.tosar(cachorro1);
         System.out.println(cachorro1.getEstadoDeEspirito());
-
     }
 }
