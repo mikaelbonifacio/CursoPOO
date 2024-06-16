@@ -7,11 +7,14 @@ public class Main {
         Cachorro cachorro1 = new Cachorro("Rex","Neutro","Marron",25,7,5.5);
         Cachorro cachorro2 = new Cachorro("Rex","Neutro","Marron",25,7,5.5);
 
-        /*
-
+        System.out.println(cachorro1.toString());
         System.out.println(cachorro2.toString());
 
-         */
+        System.out.println("----------------------------");
+        System.out.println(cachorro1.toString());
+        System.out.println(cachorro2.toString());
+
+
 
     }
 }
