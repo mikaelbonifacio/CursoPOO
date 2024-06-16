@@ -9,13 +9,8 @@ public class Cachorro extends Animal{
     // construtores
 
     public Cachorro(String nome, String estadoDeEspirito, String cor, int altura, int tamanhoDoRabo, double peso) {
-        this.nome = nome;
-        this.estadoDeEspirito = estadoDeEspirito;
-        this.cor = cor;
-        this.altura = altura;
-        this.tamanhoDoRabo = tamanhoDoRabo;
-        this.peso = peso;
-        numeroDeCachorros ++;
+        super(nome, cor, altura, peso , estadoDeEspirito);
+
     }
 
 // metodos (getters e setters)
@@ -91,6 +86,11 @@ public class Cachorro extends Animal{
         }
         return estadoDeEspirito;
 
+    }
+
+    @Override
+    public void soar() {
+        System.out.println("AU AU");
     }
 
     @Override

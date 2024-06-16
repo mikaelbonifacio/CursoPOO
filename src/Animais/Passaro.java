@@ -4,14 +4,12 @@ public class Passaro extends Animal{
 
     static int numeroDePassaros;
 
-    public Passaro(String estadoDeEspirito, double peso, int altura, String cor, String nome) {
-        this.estadoDeEspirito = estadoDeEspirito;
-        this.peso = peso;
-        this.altura = altura;
-        this.cor = cor;
-        this.nome = nome;
+    public Passaro(String nome, String cor, int altura, double peso, String estadoDeEspirito) {
+        super(nome, cor, altura, peso , estadoDeEspirito);
 
-        numeroDePassaros ++;
     }
-
+    @Override
+    public void soar() {
+        System.out.println("HEHEHE");
+    }
 }
