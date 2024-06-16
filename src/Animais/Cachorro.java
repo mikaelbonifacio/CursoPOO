@@ -11,7 +11,6 @@ public class Cachorro {
 
     //get set
 
-
     public String getNome() {
         return nome;
     }
@@ -79,14 +78,6 @@ public class Cachorro {
             default: this.estadoDeEspirito = "Neutro"; break;
         }
         return estadoDeEspirito;
-    /*
-        if (acao.equals("carinho")) {
-            this.estadoDeEspirito = "feliz";
-        }else if(acao.equals("vai dormir")) {
-            this.estadoDeEspirito = "bravo";
-        } else {
-            this.estadoDeEspirito = "neutro";
-        }
-    */
+
     }
 }
